@@ -5,5 +5,6 @@ it("should compare two objects for equality", () => {
   const right = { a: 13 };
   const fcn = (x, y) => x === y;
 
-  expect(baseliner(left, right, "a", fcn)).toBe(true);
+  expect(baseliner(left, right, "a", fcn)).toEqual(true);
+  expect(baseliner(left)(right)("a")(fcn)).toEqual(true);
 });
