@@ -1,6 +1,6 @@
 {
   "name": "baseliner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "compare objects with ease",
   "main": "build/bundle.js",
   "scripts": {
@@ -10,6 +10,10 @@
     "coverage": "jest --coverage"
   },
   "author": "PJ Trainor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trainorpj/baseliner"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
