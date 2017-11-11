@@ -1,6 +1,6 @@
 {
   "name": "baseliner",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "compare objects with ease",
   "main": "build/index.js",
   "scripts": {
