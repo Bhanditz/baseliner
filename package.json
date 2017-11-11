@@ -2,7 +2,7 @@
   "name": "baseliner",
   "version": "1.0.1",
   "description": "compare objects with ease",
-  "main": "build/bundle.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel src -d build",
     "test": "jest",
